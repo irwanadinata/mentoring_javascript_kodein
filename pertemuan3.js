@@ -59,12 +59,13 @@ let tangkap = Sapa("Irwan");
 console.log(tangkap);
 
 //Arrow Function
-const Sapa2 = (nama) => {
-    const hasil = `Selamat pagi 2 ${nama}`;
+const Sapa2 = (nama, umur, alamat) => {
+    const hasil = `Selamat pagi 2 ${nama}, Umur Jack ${umur}, alamat jack ${alamat}`;
     return hasil;
 };
 
-let tangkap2 = Sapa2("Jack");
+let tangkap2 = Sapa2("Jack", 22, "bekasi");
+console.log(tangkap2);
 
 
 
